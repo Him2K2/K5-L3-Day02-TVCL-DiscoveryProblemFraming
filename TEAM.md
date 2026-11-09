@@ -114,3 +114,13 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 - Qua việc mô tả quy trình và nhận phản biện, mình nhận ra cần phân biệt số liệu đo được với ước tính, kiểm tra phương án không dùng AI trước, và xác định rõ vai trò duyệt của nhân viên cùng các giới hạn an toàn trước khi đề xuất tự động hóa.
+### HoXuanVu-2A202603406
+
+**Phần việc được phân công:**
+
+- **Vai trò:** Nhóm trưởng, Pitch Problem Card chính.
+- **Phụ trách chính CP3 — Hội tụ nhóm:** Cluster, cây OST, bảng chấm điểm.
+- **Đóng góp khi hội tụ nhóm:** Đặt câu hỏi phản biện cho các ý tưởng của mọi người, tổng hợp ý kiến và cùng nhóm chốt phương án cuối cùng.
+- **Hỗ trợ CP4 — Kiểm chứng:** Assumption map, snapshot hoặc survey.
+- **Hỗ trợ CP5 — Problem Statement v0:** Problem Statement v0.
+- **Phụ trách chính CP6 — Quyết định:** 4 rủi ro + Go/Not Yet/No-Go.
