@@ -6,7 +6,7 @@
 
 - Tên nhóm: TVCL
 - Candidate problem nhóm chọn (1 câu): Phân loại và định tuyến thông minh phản ánh của cư dân đến đúng bộ phận chuyên trách trên ứng dụng Vinhomes Resident.
-- Quyết định cuối (Go / Not Yet / No-Go): Go (Thực hiện pilot thử nghiệm quy mô nhỏ tại 1 phân khu trong 2 tuần).
+- Quyết định cuối (Go / Not Yet / No-Go): Not Yet.
 
 ## Thành viên
 
@@ -95,6 +95,29 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 - Ban đầu tôi ưu tiên bài nhận diện biển/vạch vì đúng hướng mình quan tâm. Khi trao đổi cùng nhóm, tôi thấy khả năng lấy dữ liệu và kiểm chứng trong thời gian lab cũng quan trọng như ý tưởng kỹ thuật. Làm CP5 giúp tôi chú ý hơn đến việc tách số liệu hiện tại khỏi mục tiêu dự kiến, tính cả thời gian người duyệt sửa gợi ý và hỏi xem Rule đã đủ chưa trước khi chọn AI. Có ít bước hơn chưa chắc đã nhanh hơn, nên phần before/after vẫn cần được đo thử thực tế.
 
+
+### HoangNgocMinhTri-2A202603379
+
+**Phần việc phụ trách:**
+
+- **Phụ trách chính:** CP5 — Quy trình trước/sau và Problem Statement v0.
+- **Hỗ trợ:** CP3 — Pitch Problem Card và thảo luận hội tụ; CP4 — research/kiểm chứng; CP6 — phân tích mức can thiệp và rủi ro.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Đề xuất và pitch bài toán phân loại, định tuyến phản ánh của cư dân Vinhomes; nêu câu hỏi phản biện về việc chuẩn hóa biểu mẫu/danh mục trước khi cân nhắc AI.
+- Mô tả quy trình tiếp nhận ticket hiện tại và xác định các bước đọc nội dung, phân loại và chuyển giao cần được đo lường.
+- Đóng góp vào quy trình tương lai và Problem Statement, trong đó AI chỉ gợi ý nhãn/phòng ban để nhân viên xem xét; các trường hợp nhạy cảm hoặc cần xử lý khẩn cấp không được tự động định tuyến.
+- Tham gia thảo luận về phương án không dùng AI, cách đo thời gian xử lý và tỷ lệ chuyển sai, cùng điều kiện dữ liệu cần có trước khi thử nghiệm.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- Báo cáo cá nhân: `report/individual/2A202603379_HoangNgocMinhTri.md`, mục 3–5.
+- Báo cáo nhóm: `report/team/group_report.md`, các mục về CP3, CP5 và CP6.
+
+**Điều mình học được từ phần nhóm:**
+
+- Qua việc mô tả quy trình và nhận phản biện, mình nhận ra cần phân biệt số liệu đo được với ước tính, kiểm tra phương án không dùng AI trước, và xác định rõ vai trò duyệt của nhân viên cùng các giới hạn an toàn trước khi đề xuất tự động hóa.
 ### HoXuanVu-2A202603406
 
 **Phần việc được phân công:**
