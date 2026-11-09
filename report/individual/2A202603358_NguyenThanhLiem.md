@@ -8,7 +8,7 @@
 
 - Họ tên: Nguyễn Thanh Liêm
 - MSSV: 2A202603358
-- Email trường (không bắt buộc, repo có thể để public): liemt0165@gmail.com
+- Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm: TVCL
 - Link repo nhóm: https://github.com/Him2K2/K5-L3-Day02-TVCL-DiscoveryProblemFraming
 
