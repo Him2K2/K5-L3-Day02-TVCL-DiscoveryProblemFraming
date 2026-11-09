@@ -20,7 +20,10 @@ Cụm 2: Nỗi đau về thiếu hụt dữ liệu hiện trường và bổ sun
 
 Cụm 3: Nỗi đau đứt gãy thông tin khi bàn giao ca trực.
 
-3. Opportunity Solution Tree (OST) — Cây cơ hội & Giải pháp
+3. Opportunity Solution Tree (OST) — Cây cơ hội & Giải pháp *Check 
+![Sơ đồ Opportunity Solution Tree](../individual/Opportunity_Solution_Tree_By_HoangNgocMinhTri.png)
+*Xem chi tiết file sơ đồ hình ảnh tại thư mục dự án: `report/assets/ost-diagram.png`*
+
 OUTCOME (Gốc của cây): Giảm thời gian từ khi nhận phản ánh của cư dân đến khi phân công đúng bộ phận xử lý chuyên trách.
 
 Opportunity 1: Nhân viên gặp khó khăn và mất thời gian đọc hiểu, phân loại nội dung phản ánh thô từ cư dân.
@@ -29,8 +32,8 @@ Opportunity 2: Danh mục phân loại phòng ban nội bộ bị chồng chéo 
 
 Opportunity 3: Thông tin phản ánh thiếu cấu trúc chuẩn ngay từ đầu.
 
-Các giải pháp tiềm năng (Xem xét ở các bước sau - Không đưa vào cành Opportunity):
+Các giải pháp tiềm năng:
 
-Giải pháp Non-AI/Rule: Chuẩn hóa cây danh mục (Taxonomy) và bắt buộc cư dân chọn form mẫu sẵn.
+Giải pháp Non-AI/Rule: Chuẩn hóa cây danh mục và bắt buộc cư dân chọn form mẫu sẵn.
 
 Giải pháp AI: Mô hình phân loại tự động cú pháp text và OCR hình ảnh để gợi ý 1-click cho nhân viên (Human-in-the-loop).
