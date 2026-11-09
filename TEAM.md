@@ -47,15 +47,19 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
 - Xây dựng Assumption Map gồm 5 giả định theo 4 khía cạnh (Value, Usability, Feasibility, Viability), xác định 2 giả định #1 và #4 cần kiểm chứng trước.
-- Thu thập và phân tích 4 đánh giá (reviews) thực tế của cư dân trên Google Play Store và Apple App Store cho ứng dụng Vinhomes Resident; chụp 2 ảnh snapshot đưa vào thư mục `report/assets/`.
+- Thu thập và phân tích 4 đánh giá (reviews) thực tế của cư dân trên Google Play Store và Apple App Store cho ứng dụng Vinhomes Resident; tạo file tài liệu tổng hợp `report/assets/cp4-review-snapshot-1.md` và ảnh minh chứng gộp `report/assets/cp4-review-snapshot-1.png`.
 - Phát hiện tín hiệu phản bác quan trọng: cư dân gặp bức xúc lớn ở mảng dịch vụ tiện ích số (thẻ xe, intercom) và kênh Hotline 1900 2323 89 là kênh cứu cánh khi app lỗi; từ đó giúp nhóm xác lập Boundary: AI chỉ phân loại ticket phi khẩn cấp trên app, ca khẩn cấp điều hướng gọi hotline.
 - Hỗ trợ Vũ ở CP3: tham gia thảo luận gom 12 candidate thành 3 cụm (Cluster A, B, C), hoàn thiện cây OST (chỉ rõ 3 opportunity và gạch bỏ 3 solution trá hình), và chấm điểm 4 candidate theo 7 tiêu chí.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
-- Mục 3.1 (Assumption Map) và Mục 3.2 (Kiểm chứng qua Review + Snapshot #1, #2 + Bảng tổng hợp + Nhóm đã sửa problem thế nào) trong `report/team/group_report.md`.
-- File ảnh minh chứng: `report/assets/review_cu_dan.png` và `report/assets/review_cu_dan_2.png`.
-- Lịch sử commit trên nhánh `ntl`: commit `5424daf` (`docs(team): update group_report with CP3 convergence and CP4 validation reviews`).
+- Trong `report/team/group_report.md`: Mục 3.1 (Assumption Map) và Mục 3.2 (Kiểm chứng qua Review + Snapshot #1, #2 + Bảng tổng hợp + Nhóm đã sửa problem thế nào sau kiểm chứng).
+- Trong `report/assets/`:
+  - `report/assets/cp4-review-snapshot-1.md` (file tài liệu tổng hợp 2 Review Snapshot chi tiết).
+  - `report/assets/cp4-review-snapshot-1.png` (ảnh minh chứng đánh giá thực tế của cư dân từ Google Play và App Store đã gộp).
+  - `report/assets/cp2-workflow-card-1.png` (ảnh sơ đồ quy trình nháp cho Problem Card #1).
+  - `report/assets/cp5-workflow-future.png` (ảnh sơ đồ quy trình tương lai kết hợp Rule, AI và HITL).
+- Lịch sử commit trên nhánh `ntl`: commit `5424daf`, `bbd1240`, `8215a0a`, `5c733a9`.
 
 **Điều mình học được từ phần nhóm:**
 
@@ -114,3 +118,13 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 - Qua việc mô tả quy trình và nhận phản biện, mình nhận ra cần phân biệt số liệu đo được với ước tính, kiểm tra phương án không dùng AI trước, và xác định rõ vai trò duyệt của nhân viên cùng các giới hạn an toàn trước khi đề xuất tự động hóa.
+### HoXuanVu-2A202603406
+
+**Phần việc được phân công:**
+
+- **Vai trò:** Nhóm trưởng, Pitch Problem Card chính.
+- **Phụ trách chính CP3 — Hội tụ nhóm:** Cluster, cây OST, bảng chấm điểm.
+- **Đóng góp khi hội tụ nhóm:** Đặt câu hỏi phản biện cho các ý tưởng của mọi người, tổng hợp ý kiến và cùng nhóm chốt phương án cuối cùng.
+- **Hỗ trợ CP4 — Kiểm chứng:** Assumption map, snapshot hoặc survey.
+- **Hỗ trợ CP5 — Problem Statement v0:** Problem Statement v0.
+- **Phụ trách chính CP6 — Quyết định:** 4 rủi ro + Go/Not Yet/No-Go.
