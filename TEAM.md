@@ -60,8 +60,6 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 - Hiểu sâu sắc giá trị của việc kiểm chứng thực tế từ người dùng (The Mom Test / Reviews thật) thay vì tự ngồi tưởng tượng giả định trong phòng. Việc phát hiện ra các vấn đề về thẻ xe kéo dài cả tuần và sự tồn tại của kênh Hotline 1900 2323 89 đã trực tiếp giúp nhóm tránh được bẫy "thần thánh hóa AI" và xác định đúng ranh giới an toàn cho hệ thống (Human-in-the-loop).
-<<<<<<< Updated upstream
-=======
 
 
 ### NguyenTheCuong-2A202603355
@@ -92,4 +90,3 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 - Ban đầu tôi ưu tiên bài nhận diện biển/vạch vì đúng hướng mình quan tâm. Khi trao đổi cùng nhóm, tôi thấy khả năng lấy dữ liệu và kiểm chứng trong thời gian lab cũng quan trọng như ý tưởng kỹ thuật. Làm CP5 giúp tôi chú ý hơn đến việc tách số liệu hiện tại khỏi mục tiêu dự kiến, tính cả thời gian người duyệt sửa gợi ý và hỏi xem Rule đã đủ chưa trước khi chọn AI. Có ít bước hơn chưa chắc đã nhanh hơn, nên phần before/after vẫn cần được đo thử thực tế.
->>>>>>> Stashed changes
