@@ -104,10 +104,10 @@ Lăng kính: **Tốn thời gian** · **Lặp lại** · **Bất tiện**.
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | Thuyết trình và bảo vệ lựa chọn Card #3 (Thủ tục hành chính sinh viên/cựu sinh viên qua Agent Chatbot). | Thuyết phục nhóm thống nhất chọn bài toán có impact rộng và tính khả thi cao. |
-| Phản biện bài của bạn khác | Đặt câu hỏi về tính sẵn có của dữ liệu lịch sử và chi phí vận hành. | Giúp các bạn nhìn nhận rõ hơn về giới hạn nguồn lực triển khai. |
+| Pitch Problem Card | thuyết phục mọi người chọn bài của mình |không được chấp thuận vì bài làm có khả năng ít người dùng vì cựu sinh viên cần tra cứu thông tin rất ít  |
+| phản biện bạn liêm về bảo mật khi ai có thể đọc vào tin nhắn có thể lộ thông tin nhảy cảm | Giúp các bạn nhìn nhận rõ hơn về vấn đề bảo mật thông tin. |
 | Nhận phản biện | Tiếp thu ý kiến về cách xác thực danh tính cựu sinh viên. | Bổ sung cơ chế bảo mật danh tính vào giải pháp Agent. |
-| Chọn candidate problem | Tham gia bỏ phiếu và chốt problem statement cuối cùng. | Định hình rõ hướng đi xây dựng Agent Chatbot hỗ trợ hành chính. |
+| Chọn candidate problem | gửi hết phản biện và câu hỏi cho ai tổng hợp và chọn ra bài hợp lý nhất. | Định hình rõ hướng đi xây dựng Agent Chatbot hỗ trợ hành chính. |
 | Kiểm chứng / research | Khảo sát nhanh 10 cựu sinh viên và sinh viên về thời gian chờ giấy tờ. | Xác thực đúng bottleneck mất 2-3 ngày chờ đợi là nỗi đau thực tế. |
 
 ---
