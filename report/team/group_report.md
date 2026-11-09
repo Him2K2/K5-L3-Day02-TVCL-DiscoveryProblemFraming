@@ -148,9 +148,18 @@ Ban đầu Cường muốn chọn bài nhận diện biển báo xe vì đúng c
 
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| **Zendesk AI (Intelligent Triage & Routing)** | https://www.zendesk.com/service/ai/ | Bước 2 & 3: Đọc hiểu văn bản ticket đến, trích xuất intent/sentiment, gợi ý danh mục sự cố và đề xuất phòng ban xử lý. | Nền tảng Helpdesk lớn, độ trễ xử lý < 1 giây, tự động gắn nhãn (tags) và gợi ý macro phản hồi nhanh cho điều phối viên. | Chi phí bản quyền rất cao (gói Enterprise); độ chính xác phân loại giảm với tiếng lóng, viết tắt địa phương của cư dân Việt Nam; rủi ro giao việc nhầm nếu thiếu người duyệt. | Không để hệ thống tự giao việc thẳng cho kỹ thuật viên; bắt buộc phải giữ chốt chặn **Human-in-the-loop** (nhân viên bấm duyệt 1-click). |
+| **Freshdesk Freddy AI (Auto Categorization & Routing)** | https://www.freshworks.com/freshdesk/features/ai-ticketing-system/ | Bước 1, 2 & 4: Tự động phân loại mức độ khẩn cấp (Priority) và phân phối vé đến nhóm chuyên trách theo bộ quy tắc kết hợp AI. | Giao diện trực quan, kết hợp linh hoạt giữa Rule cứng (dựa trên kênh gửi, từ khóa) và Machine Learning; dễ cấu hình cho vận hành. | Đòi hỏi dữ liệu lịch sử lớn (hàng chục nghìn ticket chuẩn) để huấn luyện; phụ thuộc cloud bên thứ ba, tiềm ẩn rủi ro lộ dữ liệu cá nhân (PII: số điện thoại, căn hộ). | Phải có bước tiền xử lý lọc sạch thông tin nhạy cảm (PII Masking) trước khi đưa vào AI; dùng Rule để chặn và điều hướng ngay sự cố khẩn cấp ra hotline. |
+| **Biểu mẫu phân cấp bắt buộc kết hợp Rule (Standardized Form & Rule Routing)** | https://support.google.com/docs/answer/7032287 | Bước 1 & 4: Chuẩn hóa đầu vào của cư dân bằng cây danh mục phân tầng (Dropdown), tự động phân luồng theo từ khóa và danh mục cố định. | Chi phí 0 đồng, không cần mô hình AI, 100% tuân thủ quy tắc logic nội bộ, không bao giờ gặp hiện tượng "ảo giác" (hallucination). | Trải nghiệm cư dân kém (lười chọn form dài, dễ chọn bừa mục "Khác" do không hiểu cơ cấu BQL); không xử lý được mô tả phi cấu trúc hoặc ảnh chụp hiện trường. | Sử dụng làm phương án **No AI / Baseline đối chứng** và làm phương án **Fallback** khi AI gặp lỗi mạng; chỉ áp dụng Rule cho 2 trường bắt buộc tối thiểu (Mã căn hộ + Ảnh). |
+
+**Kết luận research:**
+
+```text
+Thị trường đã có các giải pháp thương mại hoàn chỉnh giải quyết khâu phân loại ticket.
+Nhóm không có lý do gì để tự xây dựng một mô hình Agent phức tạp từ đầu.
+Hướng đi tối ưu: Rule kiểm tra dữ liệu bắt buộc → AI gợi ý phân loại kèm Confidence score 
+→ Nhân viên CSKH kiểm tra & duyệt 1-click → Tự động chuyển giao (Kiến trúc Workflow có Human-in-the-loop).
+```
 
 ---
 
