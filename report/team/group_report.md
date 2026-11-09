@@ -136,9 +136,8 @@ Ban đầu Cường muốn chọn bài nhận diện biển báo xe vì đúng c
 | **Google Play (Vinhomes Resident)** | 2 review tiêu biểu (Hoa Như, Thu Huyen Nguyen) | Cư dân bức xúc vì ý kiến gửi qua app bị chậm trễ hoặc không được giải quyết; phát sinh chi phí thật (32k/tối) do quy trình kéo dài cả tuần. | Review không chỉ nói về hỏng hóc kỹ thuật trong nhà (điện nước) mà phản ánh rất nhiều về **dịch vụ thẻ/đỗ xe** và thủ tục hành chính. |
 | **Apple App Store (Vinhomes Resident)** | 2 review tiêu biểu (Viet Ne 217, Ethanvo) | Các lỗi dịch vụ (như đăng ký khuôn mặt/intercom cho khách) bị kéo dài "mãi không khắc phục"; người dùng lúng túng khi không biết kênh nào đang tiếp nhận. | **Tín hiệu phản bác quan trọng:** Ban quản lý có kênh Hotline hỗ trợ trực tiếp (1900 2323 89 nhánh 4) song song; nhiều trường hợp cư dân được điều hướng gọi tổng đài thay vì xử lý hoàn toàn trên app. |
 
-*Ảnh chụp minh chứng đánh giá thực tế của cư dân từ Google Play Store và Apple App Store:*
-![Đánh giá cư dân trên Google Play](../assets/review_cu_dan.png)
-![Đánh giá cư dân trên App Store](../assets/review_cu_dan_2.png)
+*Ảnh chụp minh chứng đánh giá thực tế của cư dân từ Google Play Store và Apple App Store (đã gộp):*
+![Đánh giá thực tế của cư dân trên Google Play và App Store](../assets/cp4-review-snapshot-1.png)
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**  
 1. **Mở rộng phạm vi phân loại (Category Scope):** Ban đầu nhóm chỉ dự định phân loại các sự cố hỏng hóc kỹ thuật (điện, nước, điều hòa). Sau khi đọc review thực tế, nhóm nhận thấy nhu cầu phản ánh của cư dân phân bổ rất nhiều vào mảng **Dịch vụ cư dân & Tiện ích số (thẻ xe, thẻ ra vào, intercom, rác thải)**. Do đó, nhóm bổ sung danh mục định tuyến bao gồm cả 4 mảng nghiệp vụ cốt lõi của ban quản lý.  
