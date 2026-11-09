@@ -6,7 +6,7 @@
 
 - Tên nhóm: TVCL
 - Candidate problem nhóm chọn (1 câu): Phân loại và định tuyến thông minh phản ánh của cư dân đến đúng bộ phận chuyên trách trên ứng dụng Vinhomes Resident.
-- Quyết định cuối (Go / Not Yet / No-Go): Go (Thực hiện pilot thử nghiệm quy mô nhỏ tại 1 phân khu trong 2 tuần).
+- Quyết định cuối (Go / Not Yet / No-Go): Go.
 
 ## Thành viên
 

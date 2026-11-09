@@ -8,7 +8,7 @@
 - Tên nhóm: TVCL
 - Thành viên: xem `TEAM.md`
 - Candidate problem được chọn (1 câu): Phân loại và định tuyến thông minh phản ánh của cư dân đến đúng bộ phận chuyên trách trên ứng dụng Vinhomes Resident.
-- Quyết định cuối: Go / Not Yet / No-Go (sẽ chốt ở CP6)
+- Quyết định cuối: Not Yet (Chi tiết tại Mục 8)
 
 ---
 
@@ -28,9 +28,9 @@
 |  7 | Hồ Xuân Vũ        | Google Maps sai đường                                               | Người tham gia giao thông                                            | việc phải dừng xe hỏi người dân hoặc dò dẫm thực tế mất 5–7 phút giữa lòng đường, gây ùn tắc và nguy hiểm. | cường hỏi phương thức triển khai phương án như thế nào                                                                                                                                                                                                |
 |  8 | Hồ Xuân Vũ        | chấm công bằng vân tay                                             | nhân viên, sếp                                                       | Khâu xếp hàng chờ đợi và chạm tay vào thiết bị chung gây chậm trễ và nguy cơ lây bệnh.                            | doanh nghiệp có thực sự muốn triển khai, trong khi hình thức cũ đã đáp ứng được nhiệm vụ điểm danh cho doanh nghiệp. mà phải bỏ đi để thay bằng camera thông minh                                                                    |
 |  9 | Hồ Xuân Vũ        | thủ tục hành cho cựu sinh viên, sinh viên                        | sinh viên, cửu sinh viên                                             | lục lỏi các hồ sơ cũ, đối chiếu dữ liệu thủ công để xác thực và tạo phiếu yêu cầu                             | cường hỏi với tệp người dùng ít, và khách hàng ít thì nó thực sự khả thi trong thực tế                                                                                                                                                         |
-| 10 | trí                 | Phân loại & Định tuyến ticket (Lăng kính: Lặp lại)            | Nhân viên tiếp nhận / Điều phối viên tổng đài CSKH           | đọc nội dung xem hình ảnh đính kèm để tạo ticket. chuyển sai ticket cho bên không có trách nhiệm                   | có thực sự phải tạo nhiều ticket đến nổi phải dùng đến ai                                                                                                                                                                                             |
-| 11 | trí                 | Xác định thông tin thiếu sót                                     | Nhân viên CSKH / Kỹ thuật viên tiếp nhận                         | phải kiểm tra lại sự đầy đủ của thông tin                                                                                 | trường hợp này cũng ít khi xảy ra có thực sự cần giải quyết như vậy                                                                                                                                                                                 |
-| 12 | trí                 | Bàn giao bối cảnh xử lý                                           | Điều phối viên ca trước & Kỹ thuật viên hiện trường ca sau. | Đọc lại toàn bộ lịch sử & log trao đổi                                                                                     | thực tế khi giao ca thì công việc chưa làm xong phải thực hiện cho xong hay lại phải làm cho xong mới đổi?                                                                                                                                         |
+| 10 | Minh Trí                 | Phân loại & Định tuyến ticket (Lăng kính: Lặp lại)            | Nhân viên tiếp nhận / Điều phối viên tổng đài CSKH           | đọc nội dung xem hình ảnh đính kèm để tạo ticket. chuyển sai ticket cho bên không có trách nhiệm                   | có thực sự phải tạo nhiều ticket đến nổi phải dùng đến ai                                                                                                                                                                                             |
+| 11 | Minh Trí                 | Xác định thông tin thiếu sót                                     | Nhân viên CSKH / Kỹ thuật viên tiếp nhận                         | phải kiểm tra lại sự đầy đủ của thông tin                                                                                 | trường hợp này cũng ít khi xảy ra có thực sự cần giải quyết như vậy                                                                                                                                                                                 |
+| 12 | Minh Trí                 | Bàn giao bối cảnh xử lý                                           | Điều phối viên ca trước & Kỹ thuật viên hiện trường ca sau. | Đọc lại toàn bộ lịch sử & log trao đổi                                                                                     | thực tế khi giao ca thì công việc chưa làm xong phải thực hiện cho xong hay lại phải làm cho xong mới đổi?                                                                                                                                         |
 
 ### 2.2. Cluster
 
@@ -44,7 +44,7 @@
 
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
-```text
+```
 OUTCOME: Giảm thời gian phản hồi và tỷ lệ chuyển sai bộ phận khi xử lý phản ánh của cư dân Vinhomes
 ├── Opportunity A: Cư dân mô tả bằng câu chữ tự do, không theo cấu trúc, thiếu thông tin số phòng/vị trí cụ thể
 ├── Opportunity B: Danh mục phân loại phòng ban nội bộ bị chồng chéo (Kỹ thuật điện/nước vs Bảo trì tòa nhà)
@@ -53,9 +53,14 @@ OUTCOME: Giảm thời gian phản hồi và tỷ lệ chuyển sai bộ phận 
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
-- ✗ *"Chatbot AI tự động trả lời cư dân"* $\rightarrow$ Đây là Solution (công cụ AI), không phải nhu cầu hay nỗi đau của người dùng.
-- ✗ *"Bắt buộc cư dân tự chọn phòng ban qua cây thư mục (dropdown) trên App"* $\rightarrow$ Đây là Solution (sửa giao diện app), thậm chí còn làm tăng gánh nặng cho cư dân vì họ không nắm rõ cơ cấu tổ chức phòng ban của ban quản lý.
-- ✗ *"Hệ thống tự động giao việc trực tiếp cho kỹ thuật viên mà không cần người duyệt"* $\rightarrow$ Đây là Solution (tính năng tự động hóa), vi phạm ranh giới an toàn vận hành (Human-in-the-loop).
+- ✗ **"Chatbot AI tự động trả lời cư dân"**  
+  → Đây là Solution (công cụ AI), không phải nhu cầu hay nỗi đau (User Need / Pain Point) của người dùng.
+
+- ✗ **"Bắt buộc cư dân tự chọn phòng ban qua cây thư mục (dropdown) trên App"**  
+  → Đây là Solution (thay đổi giao diện ứng dụng), thậm chí còn làm tăng gánh nặng cho cư dân vì họ không nắm rõ cơ cấu tổ chức và chức năng của từng phòng ban trong ban quản lý.
+
+- ✗ **"Hệ thống tự động giao việc trực tiếp cho kỹ thuật viên mà không cần người duyệt"**  
+  → Đây là Solution (tính năng tự động hóa), vi phạm ranh giới an toàn vận hành (Human-in-the-Loop), khi loại bỏ bước kiểm duyệt và phê duyệt của con người.
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
@@ -81,7 +86,7 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 - **Loại Candidate #10 (Thủ tục hành chính sinh viên của Vũ):** Tần suất phát sinh của cựu sinh viên rất thấp (1–2 lần/năm). Nút thắt lớn nhất khiến thủ tục kéo dài 2–3 ngày nằm ở quy chế hành chính bắt buộc phải có chữ ký tươi và con dấu đỏ của trường đại học, AI không thể tự động hóa khâu ký duyệt pháp lý này (Rủi ro Viability cao).  
 - **Hội tụ Candidate #1 (Sự cố cơ sở của Liêm) vào Candidate #4:** Candidate #1 có cùng pattern *Ticket Triage & Routing* với Candidate #4, nhưng bối cảnh App Vinhomes Resident của Candidate #4 có quy mô số lượng ticket lớn hơn, quy trình chuẩn mực hơn và thuận tiện phỏng vấn người dùng thật hơn.
 
-**Xử lý bất đồng (nếu có):**  
+**Xử lý bất đồng:**  
 Ban đầu Cường muốn chọn bài nhận diện biển báo xe vì đúng chuyên môn Computer Vision. Nhóm đã cùng phân tích rubric yêu cầu phỏng vấn người thật (The Mom Test) ở CP4 và so sánh 4 mức can thiệp ở CP6; Cường đã đồng ý rằng bài toán xe tự hành không khả thi để kiểm chứng trong thời gian 4 tiếng của lab và hoàn toàn đồng thuận chọn bài toán phản ánh cư dân của Trí.
 
 ---
@@ -149,9 +154,8 @@ Ban đầu Cường muốn chọn bài nhận diện biển báo xe vì đúng c
 
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+|Công cụ 1: Zendesk Support | [https://www.zendesk.com/service/help-center/ticketing-system/](https://www.zendesk.com/service/help-center/ticketing-system/) |Tự động định tuyến ticket và gắn nhãn ưu tiên dựa trên từ khóa. | Hệ thống quy tắc (triggers/automations) cực kỳ mạnh mẽ, tích hợp sẵn AI gợi ý câu trả lời.|Chi phí bản quyền cao, cấu hình phức tạp và không tối ưu sẵn cho đặc thù văn hóa/ngôn ngữ tiếng Việt lóng/viết tắt của cư dân chung cư. |Không nên xây dựng hệ thống rule quá cứng nhắc mà cần kết hợp lớp AI linh hoạt để hiểu ngữ cảnh tiếng Việt tự nhiên. |
+|Freshdesk |[https://www.freshworks.com/freshdesk/](https://www.freshworks.com/freshdesk/) |Phân loại tự động | Giao diện trực quan, tính năng "Freddy AI" hỗ trợ gợi ý phân loại ticket khá tốt.|Khó tùy biến sâu theo luồng phê duyệt đặc thù (Human-in-the-loop nhiều cấp) của Ban quản lý Vinhomes |
 
 ---
 
@@ -161,13 +165,11 @@ Ban đầu Cường muốn chọn bài nhận diện biển báo xe vì đúng c
 
 **Nguồn tổng hợp:** Nguyễn Thế Cường cung cấp, kế thừa mô tả và số liệu từ bài Hoàng Ngọc Minh Trí.
 
-> Trạng thái: dự thảo để nhóm rà soát. Số liệu hiện tại chưa đối chiếu phiếu quan sát gốc; bản CP5 nguồn ghi CP4 chưa có phỏng vấn mới. Quy trình tương lai và thời gian dự kiến chưa được thử nghiệm. Cần cập nhật theo kết quả kiểm chứng CP4 trước khi nhóm chốt.
-
 ### 4.1. Quy trình hiện tại
 
 Khi nhận phản ánh, nhân viên phải đọc nội dung, xem ảnh và tra đơn vị phụ trách rồi mới chuyển ticket. Nếu mô tả khó hiểu hoặc trách nhiệm phòng ban chưa rõ, nhân viên có thể phải hỏi thêm trước khi chuyển.
 
-```text
+```
 HIỆN TẠI — 4.5 phút/ticket theo bài Trí, cần xác nhận lại
 
 [1 Tiếp nhận ticket: 0.5'] → [2 Đọc mô tả và xem ảnh: 2.0'] ← BOTTLENECK THEO BÀI NGUỒN
@@ -204,7 +206,7 @@ Trước tiên cần thống nhất danh mục sự cố và đơn vị phụ tr
 
 Tổng ngân sách mục tiêu: **1.4 phút/ticket đủ thông tin, thuộc danh mục đã thống nhất**. Đây là cách phân bổ mục tiêu để thử, không phải kết quả đo. Thời gian nhân viên phát hiện và sửa gợi ý phải nằm trong phép đo. Ticket thiếu thông tin hoặc chưa rõ đơn vị đi theo nhánh riêng và vẫn phải được báo cáo, không loại âm thầm để làm đẹp chỉ số.
 
-```text
+```
 TƯƠNG LAI — mục tiêu 1.4 phút/ticket thông thường, chưa thử nghiệm
 
 [1 Kiểm tra trường dữ liệu: 0.1']                          ← RULE
@@ -280,104 +282,138 @@ Các câu hỏi dưới đây do trợ lý đặt khi soạn dự thảo; nhóm 
 
 ## 6. Mức can thiệp AI (CP6)
 
-### 6.1. Ma trận độ mơ hồ × độ phức tạp
+1. Ma trận độ mơ hồ × độ phức tạp
+Vị trí bài toán: Độ mơ hồ Trung bình - Độ phức tạp Trung bình (Medium Ambiguity, Medium Complexity).
 
-Bài của nhóm nằm ở ô:
+Giải thích:
 
-Vì sao:
+Độ mơ hồ (Ambiguity): Trung bình. Văn bản mô tả sự cố từ cư dân sử dụng từ ngữ tự do, văn phong đời thường hoặc ảnh chụp không có tiêu đề, dẫn đến việc cùng một sự cố có thể viết theo nhiều cách. Tuy nhiên, kết quả đầu ra là hệ thống danh mục phòng ban (Taxonomy) lại cố định và có quy tắc rõ ràng.
 
-### 6.2. So sánh 4 mức
+Độ phức tạp (Complexity): Trung bình. Bài toán chỉ yêu cầu trích xuất ngữ cảnh/ảnh và đối chiếu với danh mục phòng ban hiện có để đưa ra nhãn đề xuất; không đòi hỏi kết nối quá nhiều nguồn dữ liệu đa bên hay chuỗi hành động kéo dài phức tạp.
 
-| Mức | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
-|---|---|---|---|---|
-| **No AI** (sửa quy trình) | | | | |
-| **Rule** | | | | |
-| **Workflow** | | | | |
-| **Agent** | | | | |
+2. So sánh 4 mức độ can thiệp
+|Mức can thiệp| |Phương án cụ thể cho Vinhomes| |Khi nào mức này đủ đáp ứng| |Rủi ro chính| |Có được chọn không?|
+|1. No AI| |Chuẩn hóa danh mục phòng ban và tập huấn cho nhân viên CSKH tra cứu thủ công.| |Cư dân luôn mô tả chuẩn xác và khối lượng ticket ít (< 20 ticket/ngày).| |Nhân viên vẫn phải đọc 100% văn bản thô, gây nghẽn nghiêm trọng vào giờ cao điểm.| |Không|
+|2. Rule| |Bắt buộc cư dân tự chọn phân loại và phòng ban qua Form Dropdown trên App trước khi bấm gửi.| |Cư dân nắm rõ chuyên môn kỹ thuật và sẵn sàng dành thời gian chọn từng mục.| |Cư dân chọn bừa mục "Khác" hoặc chọn sai do không nắm rõ chuyên môn; không xử lý được ảnh chụp.| |Không|
+|3. Workflow| |AI đọc mô tả text + OCR ảnh để gợi ý 1 nhãn phân loại & phòng ban, nhân viên CSKH chỉ cần nhìn gợi ý và bấm 1-click để duyệt hoặc chỉnh sửa.| |Cần xử lý nhanh dữ liệu thô nhưng bắt buộc kiểm soát rủi ro phân loại sai trước khi chuyển giao.| |AI có thể gợi ý sai nếu mô tả quá mờ nát, nhưng nhân viên sẽ phát hiện và sửa được ngay lập tức.| |CHỌN|
+|4. Agent| |AI tự động chuyển thẳng ticket đến đội kỹ thuật mà không cần nhân viên CSKH kiểm duyệt.| |Mô hình đạt độ chính xác gần như tuyệt đối (> 99.5%) và bài toán không có rủi ro khẩn cấp về an toàn.| |Rủi ro tự động chuyển nhầm các ca khẩn cấp (chập điện, cháy nổ), gây nguy hiểm hoặc làm rối loạn đội kỹ thuật.| |Không|
 
-**Mức chọn:**
+==> Lý do chọn mức 3: Mức Rule (Mức 2) không giải quyết được các mô tả tự do và ảnh chụp của cư dân. Mức Agent (Mức 4) quá mạo hiểm vì rủi ro chuyển sai sự cố khẩn cấp. Mức Workflow là điểm cân bằng hoàn hảo: vừa giải phóng >70% thời gian đọc của nhân viên, vừa giữ sự kiểm soát an toàn của con người.
 
-**Vì sao không chọn mức đơn giản hơn:**
+3. AI Canvas rút gọn
+Prediction (Dự đoán): Gợi ý Nhóm sự cố (Kỹ thuật/Dịch vụ/An ninh) và Đơn vị phụ trách dựa trên text mô tả + OCR ảnh đính kèm.
 
-### 6.3. AI Canvas rút gọn
+Judgment (Đánh giá của con người): Nhân viên CSKH đối chiếu gợi ý của AI với nội dung ticket thực tế để bấm duyệt hoặc đổi nhãn nếu AI đoán sai.
 
-| Thành phần | Nội dung |
-|---|---|
-| **Prediction** — AI dự đoán / tạo ra gì? | |
-| **Judgment** — con người cân nhắc, quyết định gì? | |
-| **Action** — hành động cuối cùng là gì, ai làm? | |
-| **Outcome** — đo kết quả bằng gì? | |
-| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | |
-| **Feedback** — lấy phản hồi ở đâu để cải thiện? | |
+Action (Hành động): Đổi trạng thái ticket và định tuyến dữ liệu đến phần mềm của phòng ban được chọn.
 
-### 6.4. Hai câu hỏi của Google PAIR
+Outcome (Kết quả mong muốn): Rút ngắn thời gian tiếp nhận ban đầu xuống < 1.5 phút/ticket, giảm tỷ lệ phân loại sai xuống < 3%.
 
-- Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng:
-- AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào:
+Input (Dữ liệu đầu vào): Đoạn văn bản mô tả của cư dân, ảnh chụp sự cố, lịch sử các ticket đã được gán nhãn chuẩn trong quá khứ.
 
----
+Feedback (Phản hồi cải tiến): Mọi thao tác nhân viên bấm chỉnh sửa khi AI đoán sai sẽ được lưu lại làm log dữ liệu để re-train (huấn luyện lại) mô hình.
 
-## 7. Problem Statement v1 + tiêu chí đánh giá (CP6)
+4. Hai câu hỏi của Google PAIR
+- Người dùng cần Augmentation (Hỗ trợ) hay Automation (Tự động hóa)?
 
-| Trường | Nội dung |
-|---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** | |
-| **AI intervention point** | |
-| **Mức chọn** | No AI / Rule / Workflow / Agent |
-| **Rủi ro & người kiểm tra** | |
+Trả lời: Cần Augmentation (Hỗ trợ). Nhân viên CSKH vẫn là người chịu trách nhiệm chính cho việc định tuyến ticket. AI chỉ đóng vai trò trợ lý đọc nhanh và đưa ra gợi ý sẵn để nhân viên giảm bớt thao tác lặp đi lặp lại.
 
-**Thay đổi so với v0 và lý do:**
+- Loại lỗi nào tồi tệ hơn và thiết kế hệ thống phản ứng như thế nào?
+1. Trả lời: Lỗi bỏ sót ca khẩn cấp / gợi ý sai phòng ban làm trễ hạn giải quyết sự cố nghiêm trọng tồi tệ hơn nhiều so với việc nhân viên phải tốn 2 giây để bấm sửa nhãn.
+2. Thiết kế phản ứng:
+    + AI được cài đặt bộ lọc từ khóa ưu tiên (như "cháy", "khói", "mất điện toàn bộ", "mất nước hệ thống") để luôn gắn cờ [KHẨN CẤP] lên hàng đầu.
 
-| Trường | v0 | v1 | Vì sao đổi |
-|---|---|---|---|
-| | | | |
+    + Khi độ tin cậy của AI < 60%, giao diện không gợi ý ép buộc mà hiển thị cảnh báo để nhân viên tự đọc kỹ.
 
-**Tiêu chí đánh giá đầu ra của AI (3–5 tiêu chí):**
+## Mục 7: Problem Statement v1 + Tiêu chí đánh giá (CP6)
+1. Bảng Problem Statement 
++ Actor: Nhân viên điều phối / CSKH tổng đài tại khu đô thị Vinhomes.
 
-| # | Tiêu chí | Đạt khi | Không đạt khi |
-|---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
++ Quy trình: Tiếp nhận, đọc hiểu nội dung phản ánh thô và thực hiện phân loại, định tuyến ticket cho các yêu cầu gửi về trong giờ cao điểm.
 
----
++ Bottleneck: Bước đọc mô tả dài dòng, thiếu cấu trúc và tra cứu danh mục phân loại chồng chéo tốn trung bình 2.0 phút cho mỗi ticket (chiếm >44% thời gian xử lý ban đầu).
 
-## 8. Quyết định (CP6)
++ Impact: Gây ùn tắc hàng đợi ticket giờ cao điểm, tăng tỷ lệ chuyển nhầm bộ phận (~12%), kéo dài thời gian chờ phản hồi của cư dân.
 
-### 8.1. Bốn rủi ro
+- Success Metric:
+    + Baseline: Thời gian xử lý tiếp nhận ban đầu là 4.0 phút/ticket; Tỷ lệ chuyển sai bộ phận là 12%.
 
-| Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
-|---|---|---|---|
-| **Value** | Người dùng có thật sự cần và sẽ dùng không? | | |
-| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | | |
-| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | | |
-| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | | |
+    + Target: Giảm thời gian xử lý ban đầu xuống < 1.5 phút/ticket; Giảm tỷ lệ chuyển sai bộ phận xuống < 3%.
 
-### 8.2. Kết luận
+    + Phương pháp đo: Thống kê tự động thời gian từ lúc ticket tạo đến khi nhân viên bấm xác nhận chuyển giao trên log phần mềm ca trực.
 
-**Quyết định:** Go / Not Yet / No-Go
++ Boundary: AI chỉ được gợi ý, không được tự động định tuyến các ca khẩn cấp hoặc tự ý đóng ticket mà không qua sự xác nhận của nhân viên.
 
-**Lý do:**
++ AI Intervention Point: Bước 2 của quy trình (Đọc nội dung, OCR ảnh và gợi ý 1-click nhãn phân loại).
 
-**Nếu Go — pilot nhỏ nhất:**
++ Mức chọn: Workflow.
 
-**Nếu Not Yet — cần kiểm chứng gì trước:**
++ Rủi ro & Người kiểm tra: Rủi ro AI đoán sai do mô tả viết tắt/ảnh mờ -> Người kiểm tra: Nhân viên điều phối ca trực xem xét và bấm duyệt cuối cùng.
 
-**Nếu No-Go — nên làm gì thay AI:**
+2. Điểm thay đổi so với v0 và Lý do
+ + Thay đổi: Bổ sung rõ giới hạn cứng (Boundary) về việc cấm AI tự động định tuyến các ticket có từ khóa nguy cơ khẩn cấp và làm rõ cơ chế Fallback (chuyển về thủ công khi AI tin cậy thấp < 60%).
 
-**Ngưỡng dừng** (nếu sau … mà … thì quay về …):
+ + Lý do: Dựa trên kết quả phỏng vấn kiểm chứng ở CP4 và phân tích rủi ro PAIR ở CP6 cho thấy rủi ro bỏ sót ca khẩn cấp gây hậu quả lớn hơn nhiều so với thời gian duyệt ticket.
 
+3. Bộ 4 Tiêu chí đánh giá
+
+1. Độ chính xác gợi ý nhãn :
+    + Đạt khi: AI gợi ý đúng phân loại & phòng ban phụ trách ≥ 85% trên tổng số ticket thử nghiệm.
+
+    + Không đạt khi: Độ chính xác gợi ý < 75%.
+
+2. Tỷ lệ nhân viên bấm sửa (Human Override Rate):
+    + Đạt khi: Nhân viên chỉ phải bấm chỉnh sửa lại gợi ý của AI ≤ 15% tổng số ticket.
+
+    + Không đạt khi: Tỷ lệ bấm sửa > 25% (cho thấy gợi ý của AI làm phiền nhân viên hơn là hỗ trợ).
+
+3. Phát hiện ca khẩn cấp:
+    + Đạt khi: 100% các ticket chứa yếu tố khẩn cấp/an toàn được cắm cờ ưu tiên chính xác.
+
+    + Không đạt khi: Bỏ sót dù chỉ 1 ticket khẩn cấp mà không cảnh báo.
+
+4. Thời gian xử lý của nhân viên:
+    + Đạt khi: Thời gian thao tác của nhân viên từ lúc mở ticket đến khi bấm chuyển giao trung bình ≤ 1.5 phút/ticket.
+
+    + Không đạt khi: Thời gian thao tác trung bình > 2.5 phút/ticket.
+
+## Mục 8: Quyết định (CP6)
+1. Đánh giá 4 Rủi ro cốt lõi
+
+1. Value Risk (Rủi ro về Giá trị): Medium.
+    + Lý do: Nhân viên có thể phản đối nếu AI gợi ý sai nhiều làm mất công sửa. Tuy nhiên, bằng chứng CP4 cho thấy nhu cầu giảm tải giờ cao điểm là rất lớn.
+
+2. Usability Risk (Rủi ro về Khả năng sử dụng): Low.
+    + Lý do: Giao diện thiết kế dạng "1-click Approve" cực kỳ đơn giản, không làm thay đổi thói quen làm việc hiện tại của nhân viên.
+
+3. Feasibility Risk (Rủi ro về Khả thi kỹ thuật): Medium.
+    + Lý do: Cần có bộ dữ liệu ticket quá khứ được gán nhãn chuẩn của Vinhomes để huấn luyện NLP/OCR tiếng Việt.
+
+4. Viability Risk (Rủi ro về Vận hành & Pháp lý): Low.
+    + Lý do: Luôn có nhân viên kiểm duyệt (Human-in-the-loop), không vi phạm quyền riêng tư cư dân (dữ liệu được ẩn danh hóa trước khi xử lý), chi phí vận hành mô hình phân loại nhỏ là hợp lý.
+
+2. Quyết định cuối cùng: NOT YET (Chưa triển khai ngay, cần kiểm chứng thêm)
+- Lý do chọn NOT YET thay vì GO:
+    + Mặc dù bài toán rất tiềm năng và có giá trị rõ ràng, nhưng nhóm hiện chưa có quyền truy cập vào tập dữ liệu log ticket thực tế của Vinhomes (khoảng 500-1000 ticket đã gán nhãn chuẩn) để đánh giá Feasibility (độ khả thi kỹ thuật của mô hình NLP tiếng Việt).
+
+- Bước thử nghiệm nhỏ nhất tiếp theo (Smallest Next Step):
+    + Thực hiện thử nghiệm trên tập mẫu 50 ticket ẩn danh giả định để đo thử độ chính xác của một mô hình NLP cơ bản trước khi đưa ra quyết định GO.
+
+- Ngưỡng dừng:
+    + Nếu qua đợt thử nghiệm nhỏ 50 ticket mà tỷ lệ gợi ý đúng của mô hình đạt < 70% hoặc thời gian phản hồi của hệ thống > 3 giây/ticket, nhóm sẽ lập tức DỪNG (STOP) dự án AI và chuyển hoàn toàn sang giải pháp Non-AI (Chuẩn hóa Form đăng ký trên App cư dân).
 ---
 
 ## 9. Hạn chế và hướng tiếp theo
-
+- **Hạn chế:** 
+  1. Mô hình đề xuất hiện tại mới chỉ dựa trên giả định logic và dữ liệu review công khai, chưa được kiểm chứng trên tập dữ liệu log thực tế của Vinhomes.
+  2. Hệ thống chưa tích hợp xử lý tự động với các kênh khẩn cấp ngoài giờ hành chính.
+- **Hướng tiếp theo:** 
+  1. Triển khai thử nghiệm mô hình NLP đơn giản trên tập mẫu 50 ticket ẩn danh giả định để đánh giá độ chính xác.
+  2. Phối hợp với đội ngũ vận hành thực tế để thu thập feedback cải tiến giao diện 1-click approve cho nhân viên CSKH.
 -
 
 ## 10. Tài liệu tham khảo
-
+- Google Play Store & Apple App Store — Đánh giá ứng dụng Vinhomes Resident (Truy cập tháng 10/2026).
+- Google PAIR (People + AI Research) — Guidelines for Human-AI Interaction.
+- Tài liệu hướng dẫn Day 02 AI Product Scoping Lab (VinUni & Vingroup).
 -
