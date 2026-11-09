@@ -26,7 +26,7 @@ Scan 10 vấn đề theo bốn lăng kính: lặp lại, tốn thời gian, cầ
 | 9 | Cần đọc, tổng hợp nhiều thông tin | Khi điểm đánh giá chung tốt nhưng vẫn có cảnh nhận sai, tôi muốn biết lỗi tập trung ở loại biển và điều kiện ảnh nào, để ưu tiên bổ sung đúng dữ liệu còn thiếu | Kỹ sư dữ liệu, kỹ sư CV | [Cần đo] … phút phân tích/đợt; … lỗi theo từng loại biển hoặc điều kiện ảnh |
 | 10 | Pain từ người khác | Khi kỹ sư phát triển nhận báo cáo lỗi từ người kiểm thử, họ muốn tìm đúng video và cấu hình đã chạy, để tái hiện lỗi trước khi sửa | Kỹ sư phát triển, người kiểm thử bàn giao lỗi | [Cần xác nhận từ ticket] … phút tái hiện/lỗi; …/… ca thiếu video hoặc cấu hình |
 
-**AI gợi ý thêm:** các ý #3, #6, #7, #9 và #10 được AI gợi ý bổ sung; các ý #1, #2, #4, #5 và #8 chuyển từ [bài scan cũ](../assets/cp1-source-problem-scan.md). Học viên cần xác nhận ý giữ/bỏ theo trải nghiệm thật. Chưa có bằng chứng để khẳng định cả 10 vấn đề đều đã xảy ra. Bốn frame synthetic trong bài cũ chỉ minh họa phép tính, không tính là dấu hiệu thật cho #5.
+**AI gợi ý thêm:** các ý #3, #6, #7, #9 và #10 được AI gợi ý bổ sung; các ý #1, #2, #4, #5 và #8 đươc lấy từ bài Lab2 Assignment ở lecture. Học viên cần xác nhận ý giữ/bỏ theo trải nghiệm thật. Chưa có bằng chứng để khẳng định cả 10 vấn đề đều đã xảy ra. Bốn frame synthetic trong bài cũ chỉ minh họa phép tính, không tính là dấu hiệu thật cho #5.
 
 ## 3. Top 3 Problem Cards và quy trình nháp (CP2)
 
