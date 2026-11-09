@@ -16,20 +16,21 @@
 
 ### 2.1. Pitch
 
-| # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
-|---:|---|---|---|---|---|
-| 1 | Nguyễn Thanh Liêm | Khi giáo viên nhắn tin báo sự cố trong giờ dạy ở các cơ sở, tôi muốn phân loại nhanh nội dung và chuyển ngay đến đúng người phụ trách, để sự cố được xử lý trong vòng 5 phút mà không phải lướt đọc thủ công từng nhóm chat. | Phòng giáo vụ & Giáo viên đứng lớp tại 5 cơ sở | Khâu đọc lọc tin nhắn chat và forward thủ công mất 7–8 phút/sự cố, dễ sót tin nhắn khi có nhiều lớp cùng báo lỗi đầu ca. | |
-| 2 | Nguyễn Thanh Liêm | Khi một giáo viên gặp sự cố đột xuất không thể đứng lớp, tôi muốn tìm nhanh các giáo viên đang có lịch rảnh và ở gần cơ sở đó nhất, để gửi lời mời nhận lớp thay thế trong 10 phút mà không phải gọi điện dò hỏi từng người. | Quản lý đào tạo & Đội ngũ giáo viên/trợ giảng | Dò lịch rảnh trên Excel và gọi điện tuần tự từng người mất 25–30 phút; sau khi chốt còn mất thêm thời gian di chuyển của GV nhận lớp. | |
-| 3 | Nguyễn Thanh Liêm | Khi trạm sạc công cộng kín chỗ vào giờ cao điểm, tôi muốn nhận diện được các xe đã sạc đầy nhưng vẫn chiếm chỗ đỗ, để yêu cầu nhường trụ hoặc được ban quản lý điều phối sạc kịp thời mà không phải chờ đợi hàng giờ. | Tài xế xe điện cá nhân (VinFast), Xanh SM & Bảo vệ bãi xe | Việc phải đi bộ kiểm tra thủ công màn hình từng trụ sạc và chờ đợi liên hệ chủ xe chiếm chỗ mất 20–25 phút/lần. | |
-| 4 | Hoàng Ngọc Minh Trí | Khi tiếp nhận một phản ánh mới từ cư dân/khách hàng, tôi muốn nắm rõ ngay loại sự cố và khu vực phát sinh, để chuyển chính xác đến bộ phận xử lý chuyên trách mà không cần đọc đi đọc lại nhiều lần. | Nhân viên tiếp nhận / Điều phối viên Vinhomes & Cư dân | Đọc hiểu mô tả tự do, xem ảnh và đối chiếu danh mục phòng ban chồng chéo mất 2–4.5 phút/ticket; tỷ lệ gán nhầm 12%. | |
-| 5 | Hoàng Ngọc Minh Trí | Khi thông tin sự cố do cư dân cung cấp bị thiếu sót (thiếu số căn hộ, thiếu hình ảnh hiện trạng), tôi muốn biết chính xác thông tin nào còn thiếu, để phản hồi yêu cầu bổ sung ngay mà không làm gián đoạn hay kéo dài thời gian xử lý. | Nhân viên CSKH & Cư dân Vinhomes | Mất 3–4 lượt nhắn tin/gọi điện hỏi lại thông tin ban đầu, kéo dài thời gian xử lý trung bình từ 15 phút lên 180 phút. | |
-| 6 | Hoàng Ngọc Minh Trí | Khi xử lý một ticket kéo dài qua nhiều ca trực hoặc trao đổi nhiều lượt, tôi muốn nắm bắt ngay các dữ kiện quan trọng chính, để đưa ra phương án giải quyết mà không bỏ sót bối cảnh lịch sử. | Trưởng nhóm vận hành & Kỹ thuật viên | Nhân viên ca mới tiếp quản mất trung bình 8–12 phút chỉ để đọc lại toàn bộ lịch sử trò chuyện và ghi chú cũ trước khi xử lý. | |
-| 7 | Nguyễn Thế Cường | Khi kiểm thử nhận diện biển báo và vạch làn trên video, tôi muốn biết kết quả nào sai hoặc đến muộn, để chọn đúng lỗi cần cải thiện mà không phải soi từng frame. | Kỹ sư CV, Kỹ sư kiểm thử xe tự hành VinFast | Phải kiểm tra thủ công từng frame video mất nhiều giờ; khâu tìm nguyên nhân gây trễ suy luận mất nhiều thời gian. | |
-| 8 | Nguyễn Thế Cường | Khi đối soát một lô phiên sạc xe điện, tôi muốn tìm các phiên không khớp hóa đơn, để xử lý đúng giao dịch bị lệch mà không phải đối chiếu thủ công từng dòng. | Nhân viên đối soát, Bộ phận thanh toán VinFast | Dò thủ công từng dòng giao dịch giữa bảng kê ngân hàng và log trụ sạc mất nhiều giờ; dễ sai sót số liệu. | |
-| 9 | Nguyễn Thế Cường | Khi đọc một phiếu mô tả lỗi xe từ khách hàng, tôi muốn xác định triệu chứng và bộ phận tiếp nhận, để tránh chuyển phiếu sai nhóm kỹ thuật. | Nhân viên hỗ trợ kỹ thuật, Kỹ thuật viên xưởng 3S | Đọc và phân loại triệu chứng xe từ phiếu mô tả tự do; mất thời gian đọc hiểu và dễ chuyển sai xưởng. | |
-| 10 | Hồ Xuân Vũ | Khi sinh viên/cựu sinh viên làm thủ tục xin cấp giấy tờ tại trường, tôi muốn nộp và tra cứu hồ sơ online, để nhận kết quả trong ngày mà không phải đến trường xếp hàng và chờ đợi 3 ngày. | Sinh viên/cựu sinh viên & Cán bộ văn phòng một cửa | Cán bộ phải tra cứu hồ sơ/bảng điểm lưu trữ thủ công mất 2 ngày; sinh viên phải đến trực tiếp xếp hàng nộp giấy. | |
-| 11 | Hồ Xuân Vũ | Khi sử dụng Google Maps mà gặp đoạn đường Hà Nội đang rào chắn thi công hoặc mới thông luồng, tôi muốn bản đồ cập nhật ngay lộ trình đúng, để không bị chỉ đường sai và đi vào ngõ cụt. | Người tham gia giao thông tại Hà Nội | Tấp xe vào lề dừng lại tìm đường thay thế và hỏi người dân mất 10–15 phút; gây nguy hiểm và trễ giờ. | |
-| 12 | Hồ Xuân Vũ | Khi đến công ty chấm công bằng vân tay, tôi muốn ghi nhận chấm công nhanh và không phải chạm tay vào máy chung, để tránh nguy cơ lây bệnh truyền nhiễm và giảm ùn tắc đầu giờ. | Nhân viên văn phòng | Xếp hàng chờ bấm vân tay vào giờ cao điểm sáng mất 5–10 phút; máy bẩn hoặc nhận diện vân tay chập chờn. | |
+
+|  # | Người đưa ra     | Candidate (Job Story ngắn)                                            | Actor                                                                   | Bottleneck                                                                                                                          | Câu hỏi phản biện nhận được (ai hỏi)                                                                                                                                                                                                                      |
+| -: | -------------------- | ---------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|  1 | Nguyễn Thanh Liêm  | Phân loại và điều phối sự cố từ nhóm chat các cơ sở       | giáo viên                                                             | sai sót và tìm kiếm lâu tin nhắn trong group                                                                                  | vũ hỏi rằng để ai đọc vào tin nhắn chat thì giải quyết vấn đề bảo mật thông tin, và quản lý thông tin nhảy cảm như thế nào khi ai đọc chat                                                                                            |
+|  2 | Nguyễn Thanh Liêm  | phân loại chuyển ca dạy cho giáo viên khác khi có sự cố      | giáo viên                                                             | dò thủ công lịch học, gọi để xác nhận                                                                                     | vũ hỏi về vấn đề sự đồng ý của giáo viên khi được ai giao ca nếu không có cuộc gọi và thỏa thuận thực tế từ giáo viên đó, nếu như giáo viên đó chưa chuẩn bị cho buổi dạy đột xuất về tài liệu và kịch bản dạy |
+|  3 | Nguyễn thanh Liêm  | Khi trạm sạc công cộng kín chỗ vào giờ cao điểm              | tài xế xe                                                             | di chuyển kiểm chứng từng trụ sạc                                                                                             | vũ hỏi liệu khách hàng có đồng ý với việc thêm các thiết bị như camera và loa thông báo cho các trụ sạc hay không nó sẽ rất tốn kém                                                                                                    |
+|  4 | Nguyễn Thế Cường | Khi đánh giá video camera trước, tôi muốn biết kết quả biển | Kỹ sư phát triển và kiểm thử CV                                  | Bước nhận diện/hậu xử lý có thể sai; khâu gây trễ chưa đo, chưa kết luận                                           | Liêm hỏi trong tình trạng ban đêm thì camera có thể nhận dạng tốt hình ảnh. và thực sự rằng so với mắt thường thì ai phát hiện và phản hồi nhanh hơn con người không                                                               |
+|  5 | Cường              | Đối chiếu hóa đơn sạc                                           | Nhân viên đối soát                                                 | Ghép và kiểm lệch, chưa đo phút/lô                                                                                          | liêm hỏi có thực sự tạo ra thêm doanh thu khi triển khai                                                                                                                                                                                                   |
+|  6 | Cường              | Phân loại mô tả lỗi xe                                            | Nhân viên hỗ trợ kỹ thuật                                         | Đọc và phân loại triệu chứng; chưa đo giây/phiếu                                                                         | liêm khi các triệu chứng của nó có thể dẫn đến từ nhiều lỗi thì tiêu chí ưu tiên để chọn nơi chuyển phiếu ưu tiên là gì?                                                                                                              |
+|  7 | Hồ Xuân Vũ        | Google Maps sai đường                                               | Người tham gia giao thông                                            | việc phải dừng xe hỏi người dân hoặc dò dẫm thực tế mất 5–7 phút giữa lòng đường, gây ùn tắc và nguy hiểm. | cường hỏi phương thức triển khai phương án như thế nào                                                                                                                                                                                                |
+|  8 | Hồ Xuân Vũ        | chấm công bằng vân tay                                             | nhân viên, sếp                                                       | Khâu xếp hàng chờ đợi và chạm tay vào thiết bị chung gây chậm trễ và nguy cơ lây bệnh.                            | doanh nghiệp có thực sự muốn triển khai, trong khi hình thức cũ đã đáp ứng được nhiệm vụ điểm danh cho doanh nghiệp. mà phải bỏ đi để thay bằng camera thông minh                                                                    |
+|  9 | Hồ Xuân Vũ        | thủ tục hành cho cựu sinh viên, sinh viên                        | sinh viên, cửu sinh viên                                             | lục lỏi các hồ sơ cũ, đối chiếu dữ liệu thủ công để xác thực và tạo phiếu yêu cầu                             | cường hỏi với tệp người dùng ít, và khách hàng ít thì nó thực sự khả thi trong thực tế                                                                                                                                                         |
+| 10 | trí                 | Phân loại & Định tuyến ticket (Lăng kính: Lặp lại)            | Nhân viên tiếp nhận / Điều phối viên tổng đài CSKH           | đọc nội dung xem hình ảnh đính kèm để tạo ticket. chuyển sai ticket cho bên không có trách nhiệm                   | có thực sự phải tạo nhiều ticket đến nổi phải dùng đến ai                                                                                                                                                                                             |
+| 11 | trí                 | Xác định thông tin thiếu sót                                     | Nhân viên CSKH / Kỹ thuật viên tiếp nhận                         | phải kiểm tra lại sự đầy đủ của thông tin                                                                                 | trường hợp này cũng ít khi xảy ra có thực sự cần giải quyết như vậy                                                                                                                                                                                 |
+| 12 | trí                 | Bàn giao bối cảnh xử lý                                           | Điều phối viên ca trước & Kỹ thuật viên hiện trường ca sau. | Đọc lại toàn bộ lịch sử & log trao đổi                                                                                     | thực tế khi giao ca thì công việc chưa làm xong phải thực hiện cho xong hay lại phải làm cho xong mới đổi?                                                                                                                                         |
 
 ### 2.2. Cluster
 
@@ -147,49 +148,105 @@ Ban đầu Cường muốn chọn bài nhận diện biển báo xe vì đúng c
 
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| **Zendesk AI (Intelligent Triage & Routing)** | https://www.zendesk.com/service/ai/ | Bước 2 & 3: Đọc hiểu văn bản ticket đến, trích xuất intent/sentiment, gợi ý danh mục sự cố và đề xuất phòng ban xử lý. | Nền tảng Helpdesk lớn, độ trễ xử lý < 1 giây, tự động gắn nhãn (tags) và gợi ý macro phản hồi nhanh cho điều phối viên. | Chi phí bản quyền rất cao (gói Enterprise); độ chính xác phân loại giảm với tiếng lóng, viết tắt địa phương của cư dân Việt Nam; rủi ro giao việc nhầm nếu thiếu người duyệt. | Không để hệ thống tự giao việc thẳng cho kỹ thuật viên; bắt buộc phải giữ chốt chặn **Human-in-the-loop** (nhân viên bấm duyệt 1-click). |
+| **Freshdesk Freddy AI (Auto Categorization & Routing)** | https://www.freshworks.com/freshdesk/features/ai-ticketing-system/ | Bước 1, 2 & 4: Tự động phân loại mức độ khẩn cấp (Priority) và phân phối vé đến nhóm chuyên trách theo bộ quy tắc kết hợp AI. | Giao diện trực quan, kết hợp linh hoạt giữa Rule cứng (dựa trên kênh gửi, từ khóa) và Machine Learning; dễ cấu hình cho vận hành. | Đòi hỏi dữ liệu lịch sử lớn (hàng chục nghìn ticket chuẩn) để huấn luyện; phụ thuộc cloud bên thứ ba, tiềm ẩn rủi ro lộ dữ liệu cá nhân (PII: số điện thoại, căn hộ). | Phải có bước tiền xử lý lọc sạch thông tin nhạy cảm (PII Masking) trước khi đưa vào AI; dùng Rule để chặn và điều hướng ngay sự cố khẩn cấp ra hotline. |
+| **Biểu mẫu phân cấp bắt buộc kết hợp Rule (Standardized Form & Rule Routing)** | https://support.google.com/docs/answer/7032287 | Bước 1 & 4: Chuẩn hóa đầu vào của cư dân bằng cây danh mục phân tầng (Dropdown), tự động phân luồng theo từ khóa và danh mục cố định. | Chi phí 0 đồng, không cần mô hình AI, 100% tuân thủ quy tắc logic nội bộ, không bao giờ gặp hiện tượng "ảo giác" (hallucination). | Trải nghiệm cư dân kém (lười chọn form dài, dễ chọn bừa mục "Khác" do không hiểu cơ cấu BQL); không xử lý được mô tả phi cấu trúc hoặc ảnh chụp hiện trường. | Sử dụng làm phương án **No AI / Baseline đối chứng** và làm phương án **Fallback** khi AI gặp lỗi mạng; chỉ áp dụng Rule cho 2 trường bắt buộc tối thiểu (Mã căn hộ + Ảnh). |
+
+**Kết luận research:**
+
+```text
+Thị trường đã có các giải pháp thương mại hoàn chỉnh giải quyết khâu phân loại ticket.
+Nhóm không có lý do gì để tự xây dựng một mô hình Agent phức tạp từ đầu.
+Hướng đi tối ưu: Rule kiểm tra dữ liệu bắt buộc → AI gợi ý phân loại kèm Confidence score 
+→ Nhân viên CSKH kiểm tra & duyệt 1-click → Tự động chuyển giao (Kiến trúc Workflow có Human-in-the-loop).
+```
 
 ---
 
 ## 4. Quy trình trước/sau (CP5)
 
+**Người tổng hợp:** Nguyễn Thế Cường — 2A202603355, nhóm TVCL.
+
+**Nguồn tổng hợp:** Nguyễn Thế Cường cung cấp, kế thừa mô tả và số liệu từ bài Hoàng Ngọc Minh Trí.
+
+> Trạng thái: dự thảo để nhóm rà soát. Số liệu hiện tại chưa đối chiếu phiếu quan sát gốc; bản CP5 nguồn ghi CP4 chưa có phỏng vấn mới. Quy trình tương lai và thời gian dự kiến chưa được thử nghiệm. Cần cập nhật theo kết quả kiểm chứng CP4 trước khi nhóm chốt.
+
 ### 4.1. Quy trình hiện tại
 
-Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
+Khi nhận phản ánh, nhân viên phải đọc nội dung, xem ảnh và tra đơn vị phụ trách rồi mới chuyển ticket. Nếu mô tả khó hiểu hoặc trách nhiệm phòng ban chưa rõ, nhân viên có thể phải hỏi thêm trước khi chuyển.
 
 ```text
+HIỆN TẠI — 4.5 phút/ticket theo bài Trí, cần xác nhận lại
 
+[1 Tiếp nhận ticket: 0.5'] → [2 Đọc mô tả và xem ảnh: 2.0'] ← BOTTLENECK THEO BÀI NGUỒN
+→ [3 Xác định loại sự cố và tra đơn vị: 1.0']
+→ [4 Gán nhãn, ưu tiên và đơn vị: 0.5'] → [5 Lưu và chuyển ticket: 0.5']
 ```
 
-| Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
-|---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+`'` là phút. Tổng trên là thời gian thao tác theo bài nguồn, chưa bao gồm thời gian chờ cư dân bổ sung hoặc chờ bộ phận nhận xử lý.
 
-**Bottleneck chính:**
+| Bước | Actor | Input | Output và chuyển giao | Thời gian/tần suất |
+|---:|---|---|---|---|
+| 1. Tiếp nhận | Nhân viên CSKH | Thông báo phản ánh mới | Ticket được mở → bước đọc nội dung | 0.5 phút/ticket theo bài Trí |
+| 2. Đọc và xem ảnh | Nhân viên CSKH | Mô tả, ảnh và vị trí nếu có | Nội dung sự cố được hiểu sơ bộ → bước phân loại | 2.0 phút/ticket theo bài Trí |
+| 3. Xác định đơn vị | Nhân viên CSKH | Nội dung sự cố, danh mục và trách nhiệm phòng ban | Nhóm sự cố và đơn vị dự kiến → bước gán thông tin | 1.0 phút/ticket theo bài Trí |
+| 4. Gán thông tin | Nhân viên CSKH | Nhóm sự cố, quy định ưu tiên, đơn vị dự kiến | Ticket có nhãn và đơn vị tiếp nhận → bước lưu/chuyển | 0.5 phút/ticket theo bài Trí |
+| 5. Lưu và chuyển | Nhân viên CSKH; bộ phận nhận | Ticket đã phân loại | Ticket chuyển tới Kỹ thuật/Dịch vụ/An ninh theo danh mục | 0.5 phút/ticket theo bài Trí |
 
-### 4.2. Quy trình tương lai
+**Bước nghẽn theo bài nguồn:** bước 2, chiếm khoảng 44% tổng thời gian thao tác. Tuy nhiên, thời gian đọc lâu chưa chứng minh nguyên nhân nằm ở cách cư dân diễn đạt; danh mục chồng chéo hoặc thông tin thiếu cũng có thể khiến nhân viên phải đọc lại. Cần kiểm tra riêng bước 2 và bước 3 trước khi chọn cách cải thiện.
 
-Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
+Bài nguồn nêu 120 ticket/ca 8 giờ. Nếu nhân 120 với 4.5 phút sẽ thành 540 phút; vì chưa rõ số người và cách đo, không dùng phép nhân này để khẳng định mức quá tải hoặc số giờ tiết kiệm.
+
+### 4.2. Quy trình tương lai đề xuất
+
+Trước tiên cần thống nhất danh mục sự cố và đơn vị phụ trách. Sau đó thử biểu mẫu và Rule làm đối chứng. Chỉ thử hỗ trợ phân loại nội dung nếu cách đơn giản vẫn còn nhiều trường hợp khó; chưa chốt mức can thiệp AI ở CP5.
+
+#### Các bước và vai trò
+
+| Bước | Actor | Input | Output | Ngân sách thời gian đề xuất |
+|---:|---|---|---|---|
+| 1. Mở và kiểm tra dữ liệu | Rule | Ticket, trường bắt buộc theo loại phản ánh | Đủ dữ liệu hoặc danh sách trường thiếu | 0.1 phút |
+| 2. Chuẩn bị phương án phân loại | Rule; AI chỉ thử nếu cần | Ticket đủ dữ liệu và danh mục đã khóa | Nhóm sự cố, đơn vị gợi ý và căn cứ; có thể trả “chưa xác định” | 0.2 phút |
+| 3. Kiểm tra và quyết định | Nhân viên CSKH | Nội dung gốc và gợi ý | Phân loại được duyệt/sửa hoặc chuyển xử lý thủ công | 0.8 phút |
+| 4. Lưu và chuyển sau duyệt | Rule thực hiện theo xác nhận của nhân viên | Ticket đã được duyệt | Ticket chuyển đúng đơn vị; có log thao tác và người duyệt | 0.3 phút |
+
+Tổng ngân sách mục tiêu: **1.4 phút/ticket đủ thông tin, thuộc danh mục đã thống nhất**. Đây là cách phân bổ mục tiêu để thử, không phải kết quả đo. Thời gian nhân viên phát hiện và sửa gợi ý phải nằm trong phép đo. Ticket thiếu thông tin hoặc chưa rõ đơn vị đi theo nhánh riêng và vẫn phải được báo cáo, không loại âm thầm để làm đẹp chỉ số.
 
 ```text
+TƯƠNG LAI — mục tiêu 1.4 phút/ticket thông thường, chưa thử nghiệm
 
+[1 Kiểm tra trường dữ liệu: 0.1']                          ← RULE
+→ [2 Chuẩn bị nhóm sự cố và đơn vị gợi ý: 0.2']             ← RULE / AI NẾU CẦN THỬ
+→ [3 Nhân viên xem nội dung gốc, duyệt hoặc sửa: 0.8']      ← CON NGƯỜI
+→ [4 Lưu và chuyển theo xác nhận: 0.3']                    ← RULE
+
+Thiếu thông tin → Nhân viên yêu cầu bổ sung; ghi riêng thời gian chờ.
+Không rõ đơn vị / gợi ý không phù hợp → Nhân viên phân loại thủ công hoặc hỏi điều phối.
+Rule/AI lỗi → Dùng danh mục và quy trình thủ công hiện tại; lưu lý do quay về.
 ```
+
+#### Ranh giới và phương án quay về
+
+- Nhân viên phải kiểm tra và xác nhận trước khi chuyển ticket trong pilot. AI, nếu được thử, chỉ gợi ý nhãn/đơn vị từ danh mục đã duyệt.
+- Không tự tạo dữ kiện, sửa mô tả gốc, tự thêm phòng ban hoặc suy ra thông tin còn thiếu. Giữ nội dung gốc để đối chiếu.
+- Không tự đóng ticket, nhắn cho cư dân hoặc thay đổi mức ưu tiên. Ưu tiên áp dụng theo quy định hiện có và người có trách nhiệm xác nhận.
+- Trường hợp không rõ trách nhiệm, ngoài danh mục hoặc có dấu hiệu khẩn cấp đi theo quy trình chuyển cấp hiện hành; không chờ gợi ý AI để tiếp tục xử lý.
+- Khi công cụ lỗi, nhân viên dùng danh mục và cách làm thủ công. Nếu chính danh mục còn mâu thuẫn, hỏi điều phối/người phụ trách để chốt đơn vị; không ép mô hình đoán.
+- Chỉ dùng ticket được phép sử dụng, đã ẩn thông tin nhận diện khi đưa vào môi trường thử nghiệm. Không tải dữ liệu cư dân lên dịch vụ bên ngoài khi chưa có quyền phù hợp.
 
 ### 4.3. Before / after
 
 | Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
-|---|---:|---:|---|
-| Số bước | | | |
-| Tổng thời gian | | | |
-| Số bước thủ công | | | |
-| Bottleneck chính | | | |
-| Rủi ro mới phát sinh | | | |
+|---|---|---|---|
+| Số bước chính | 5 | 4 với ticket thông thường | Đếm cùng phạm vi từ mở đến chuyển ticket |
+| Tổng thời gian thao tác | 4.5 phút/ticket, cần xác nhận | Dưới 1.5 phút; ngân sách thử 1.4 phút | Đo từ mở đến chuyển, tách khoảng chờ; tính cả sửa gợi ý |
+| Bước cần nhân viên thao tác | Cả 5 bước | 1 bước duyệt chính; ca ngoại lệ có thể cần thêm thao tác | Quan sát thực tế, không coi số bước giảm là bằng chứng tiết kiệm thời gian |
+| Tỷ lệ chuyển sai lần đầu | Khoảng 12%, chỉ là ước tính | Dưới 3%, cần nhóm xác nhận ngưỡng | Dùng đơn vị đúng do người phụ trách xác nhận |
+| Bước nghẽn | Đọc/xem ảnh, có thể kèm tra cứu trách nhiệm | Có thể chuyển sang bước duyệt/sửa gợi ý | Bấm giờ riêng từng khâu |
+| Ticket thiếu thông tin/chưa rõ đơn vị | Chưa có thống kê cùng phạm vi | Báo số lượng và thời gian riêng | Không bỏ các ca khó khỏi báo cáo tổng |
+| Rủi ro mới | Phân loại thủ công có thể chậm hoặc sai | Tin gợi ý quá mức, Rule xung đột, danh mục lỗi thời, thêm thời gian sửa | So đối chứng, kiểm log và cho phép quay về thủ công |
+
+Không chuyển các mục tiêu ở cột “Sau” thành số liệu đạt được trước khi pilot có kết quả. Chưa có cơ sở tính mức giảm chi phí hoặc quy đổi số giờ tiết kiệm cho cả ca.
 
 ---
 
@@ -197,16 +254,35 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | |
+| **Actor** | Nhân viên tiếp nhận và điều phối phản ánh cư dân, chịu trách nhiệm xác định loại sự cố và chuyển tới bộ phận phù hợp |
+| **Quy trình** | Tiếp nhận ticket → đọc mô tả/ảnh → tra nhóm sự cố và trách nhiệm phòng ban → gán nhãn/đơn vị → lưu và chuyển |
+| **Bottleneck** | Theo bài Trí, đọc mô tả/ảnh mất 2 phút trong tổng 4.5 phút/ticket. Chưa rõ bao nhiêu thời gian do đọc hiểu, thiếu dữ liệu hay danh mục trách nhiệm chồng chéo |
+| **Impact** | Tiếp nhận lâu làm tăng thời gian trước khi phản ánh tới đúng người xử lý; chuyển sai có thể gây chuyển lại và chậm xử lý. Quy mô tác động cần xác nhận bằng ticket thực tế |
+| **Success Metric** | Baseline thời gian được báo cáo: 4.5 phút/ticket, cần xác minh; target dưới 1.5 phút. Tỷ lệ chuyển sai hiện tại chưa xác nhận (12% là ước tính), target đề xuất dưới 3%. Đo trên ticket trong phạm vi đã khóa, gồm thời gian kiểm tra/sửa; báo riêng thời gian chờ, ca ngoại lệ và số mẫu |
+| **Boundary** | Chỉ nghiên cứu bước tiếp nhận–phân loại–chuyển giao, chưa gồm xử lý/đóng sự cố. Chưa có quyền tự động chuyển hoặc gửi phản hồi trong pilot; con người xác nhận đơn vị và ưu tiên. Nếu thử AI, chỉ được gợi ý trong danh mục, không tự thêm thông tin hoặc quyết định ngoài phạm vi |
 
-Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
+Problem Statement mô tả khó khăn và kết quả cần đạt; chưa quy định phải dùng mô hình phân loại. Quy trình tương lai ở mục 4.2 chỉ là một phương án để kiểm tra, có thể đổi nếu CP4 cho thấy nguyên nhân khác.
 
--
+### 5.1. Cách đo cần thống nhất trước pilot
+
+1. Chốt tập ticket được phép dùng, thời gian lấy mẫu, nhóm sự cố và phiên bản danh mục. Người có trách nhiệm nghiệp vụ xác nhận nhãn đúng; ca chưa thống nhất nhãn phải được ghi riêng.
+2. Ghi thời gian mở, đọc/tra cứu, duyệt/sửa và chuyển ticket. Báo thời gian thao tác trung bình theo ticket, phân bố thời gian và số mẫu; báo thời gian chờ riêng.
+3. Tỷ lệ chuyển sai lần đầu = số ticket chuyển sai / số ticket xác nhận được đơn vị đúng. Phân biệt chuyển sai với chuyển nhiều cấp hợp lệ; báo tỷ lệ chưa xác định được nhãn.
+4. So quy trình hiện tại với biểu mẫu/danh mục/Rule trước. Nếu thử AI, dùng điều kiện tương đương và tính cả công sửa. Tránh cho một người xử lý lại cùng ticket mà không kiểm soát hiệu ứng nhớ nội dung.
+5. Báo cả tỷ lệ ticket xử lý theo luồng thường và ngoại lệ. Số mẫu tối thiểu, thời gian thử và người chốt kết quả cần nhóm xác nhận trước khi chạy; chưa kết luận đạt khi các điều kiện này còn thiếu.
+
+### 5.2. Phản biện Problem Statement v0
+
+Các câu hỏi dưới đây do trợ lý đặt khi soạn dự thảo; nhóm đã rà soát và ghi nhận ý kiến trong bảng.
+
+| Điểm còn yếu | Câu hỏi cần trả lời | Nội dung đã làm rõ trong bản nháp | Nhóm đồng ý? |
+|---|---|---|---|
+| Baseline chưa kiểm tra được | 4.5 phút đo trên bao nhiêu ticket, bởi mấy người, có tính thời gian chờ không? | Ghi rõ số kế thừa, chưa xác nhận; không dùng làm bằng chứng cải thiện đã đạt | Đồng ý |
+| Chưa rõ nguyên nhân gốc | Nhân viên đọc lâu hay phân vân giữa các phòng ban? | Tách bước đọc và tra trách nhiệm; ưu tiên chuẩn hóa danh mục trước | Đồng ý |
+| Mục tiêu dễ bị đạt giả | Các ca khó, thiếu thông tin hoặc phải sửa gợi ý có bị bỏ ra không? | Yêu cầu báo ngoại lệ và tính thời gian sửa; không loại ca khó âm thầm | Đồng ý |
+| Chưa cần đến AI | Biểu mẫu, danh mục và Rule giải quyết được phần nào? | Giữ phương án không AI làm đối chứng; AI là nhánh thử tùy kết quả | Đồng ý với việc cần kiểm tra |
+| Giảm số bước chưa chứng minh nhanh hơn | Bước review mới có mất nhiều thời gian hơn dự kiến không? | Giữ 1.4 phút là ngân sách mục tiêu, cần đo thực tế | Đồng ý |
+
 
 ---
 
